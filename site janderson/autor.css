@@ -1,0 +1,58 @@
+#body{
+
+  border: rgb(216, 216, 216) 1px solid;
+
+  max-width: 100%;
+  padding: 100px;
+  background-color: rgb(250, 226, 194);
+   margin-bottom: 10px;
+}
+
+
+h1 {
+    text-decoration: underline;
+    color: red;
+  }
+
+  h2{
+
+    
+     color: black;
+     font-family: 'Times New Roman', Times, serif;
+     text-decoration: underline;
+
+  }
+
+  h3{
+    text-decoration: underline;
+
+  }
+
+  h4{
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-size: 18px;
+  }
+
+  #Rodape{
+
+      padding: 20px;
+
+      color: rgb(27, 176, 202);
+     
+      border: rgb(27, 176, 202 )1px solid;
+      box-shadow: blue;
+      border-radius:10px;
+
+      background-color: rgb(252, 85, 85);
+
+  }
+
+h5{
+
+   font-size: 20px;
+   color: blue;
+   margin-left: 2px;
+
+}

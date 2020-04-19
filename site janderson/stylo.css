@@ -1,0 +1,318 @@
+#body{ 
+  
+    background-color: rgb(8, 172, 226);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow:black 2px 2px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    
+  } 
+
+#navbar{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .navbar{
+    border: blue 1px solid;
+    box-shadow:black 2px 2px 5px;
+    padding: 20px;
+    display: flex;
+
+    color: hotpink;
+   
+
+    justify-content: space-between;
+
+
+  }
+
+  a:hover{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+    text-decoration: unset;
+    color: blue;
+    text-shadow: grey 1px 1px 5px;
+    font-size: 25px;
+    
+  }
+
+  a:link {
+    color: green;
+    text-decoration: none;
+  }
+   
+  /*Link já visitado*/
+  a:visited {
+    color: blue;
+    text-decoration: none;
+  }
+   
+  /*Quando o mouse passa por cima*/
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+   
+  /*Link ativo/selecionado*/
+  a:active {
+    color: yellow;
+    text-decoration: none;
+  }
+
+
+  
+
+  #conteudo{
+
+   display: flex;
+   justify-content: space-between;
+   
+ 
+
+   
+
+  }
+
+
+#Imagensnoticias{
+
+   
+    display: flex;
+    justify-content: space-between;
+
+    display: flex;
+    border: black 1px solid;
+    
+    padding: 50px;
+    background-color: white;
+   
+    
+    margin-left: 10px;
+
+    margin-bottom: 10px;
+   
+
+
+      
+
+}
+
+.Imagensnoticia{
+ 
+    border: blue 1px solid;
+
+    border:gray 1px solid;
+
+    margin-bottom: 30px;
+   margin-left: 10px;
+   
+
+    
+}
+
+#noticia{
+
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 10px;
+    margin-left: 30px;
+    
+
+    
+
+
+}
+.noticia{
+
+
+    margin-left: 30px;
+    text-align: left;
+}
+#noticiaEUA{
+
+   display: flex;
+   justify-content: space-between;
+
+
+
+}
+
+h1{
+
+    animation-name: mudacor;
+   animation-duration: 5s;
+   color: red;
+}
+
+@keyframes mudacor{
+
+    from {color: red;}
+
+    to {color:rgb(255, 187, 0)}
+
+  }
+
+h2{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: rgb(228, 18, 18);
+     font-size: 20px;
+}
+
+h3{
+
+
+color:black
+
+}
+
+
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     text-align: left;
+     margin-bottom: 10px;
+ }
+
+ h5{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(228, 18, 18);
+    font-size: 20px;
+
+ }
+
+
+ h6{
+    display: flex;
+
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(228, 18, 18);
+    font-size: 20px;
+     left:10px;
+    text-shadow: rgb(161, 161, 241);
+    
+     border: gray 1px solid;
+
+
+ }
+
+#estatistica{
+
+    
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.estatistica{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 25px;
+
+     color: gray;
+
+     
+
+}
+
+#texto{
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+#rodape{
+
+    
+    background-color:red;
+    color: black;
+    padding: 20px;
+    
+    border: 1px solid;
+
+    
+    
+   
+  
+}
+
+
+
+
+
+.Ministeriodasaude{
+
+    margin-bottom: 10px;
+
+    
+}
+
+
+.saidamisteriodasaude{
+
+    margin-right: 75%;
+}
+
+#video{
+   
+
+ 
+ 
+   display: flex;
+   justify-content: space-between;
+
+    margin-bottom: 15px;
+
+    margin-right: 3px;
+
+    
+    
+}
+.video{
+
+ 
+    border:black 1px solid;
+   margin-bottom: 1opx;
+   
+  
+  
+
+}
+
+  
+   
+
+
+
+
+
+      
+
+
+
+        
+       
+    
+    
+
+  
+
+
+
+
